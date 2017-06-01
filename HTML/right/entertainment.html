@@ -1,0 +1,132 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+    <title>zixuan</title>
+    <script>
+        function display() { document.getElementById("time").innerHTML = Date(); }</script>
+    <style>
+        mycs
+        {
+            width: 100%;
+            height: 50px;
+            margin-left: 0px;
+            padding-left: 0px;
+            text-align: center;
+            display: block;
+            background-color: rgba(0, 148, 255,0.5);
+            text-decoration-color: red;
+            font-size: 40px;
+            color: rgba(0,0,0,0.9);
+        }
+
+        body
+        {
+            text-align: center;
+            background: rgba(0,255,0,0.6);
+        }
+    </style>
+</head>
+<body>
+    <h2><b>视频列表</b></h2>
+    <table align="center" width="100%">
+        <tr>
+            <td><a href="#sp">哥只是个传说</a></td><td><a href="#Gee">Gee</a></td>
+            <td><a href="#RYD">Rage Your Dream</a></td>
+        </tr>
+    </table>
+    <p id="time">This is my first JavaScript! </p>
+      <button type="button" onclick="display()" id="RIQI">点击获取当前时间</button>
+    <br />
+    <mycs><marquee><i id="tima">I'm a processer!</i></marquee></mycs>
+    <br />
+    <div style="text-align: center">
+        <video id="sp" width="450" height="300" controls>
+            <source src="gzsgcs.mp4" type="video/mp4">
+            <source src="gzsgcs.ogg" type="video/ogg">
+            ÄúµÄä¯ÀÀÆ÷²»Ö§³ÖVideo±êÇ©¡£
+        </video>
+        <br />
+           <button onclick="playPause()">播放/暂停</button>
+        <button onclick="makeBig()">放大</button>
+        <button onclick="makeSmall()">缩小</button>
+        <br />
+    </div>
+    <script>
+        var myviedo = document.getElementById("sp")
+        function playPause() {
+            if (myviedo.paused)
+                myviedo.play();
+            else myviedo.pause();
+        }
+        function makeBig() {
+            myviedo.width = 560
+            myviedo.height = 480
+        }
+        function makeSmall() {
+            myviedo.width = 480
+            myviedo.height = 320
+        }
+
+    </script>
+    <div style="text-align: center">
+        <video id="Gee" width="450" height="300" controls>
+            <source src="Gee.mp4" type="video/mp4">
+            <source src="Gee.ogg" type="video/ogg">
+        </video><br />
+         <button onclick="playPauses()">播放/暂停</button>
+        <button onclick="makeBigs()">放大</button>
+        <button onclick="makeSmalls()">缩小</button>
+        <br />
+    </div>
+    <script>
+        var myviedos = document.getElementById("Gee")
+        function playPauses() {
+            if (myviedos.paused)
+                myviedos.play();
+            else myviedos.pause();
+        }
+        function makeBigs() {
+            myviedos.width = 560
+            myviedos.height = 480
+        }
+        function makeSmalls() {
+            myviedos.width = 480
+            myviedos.height = 320
+        }
+
+    </script>
+    <br /> 
+    <div style="text-align: center">
+        <video id="RYD" width="450" height="300" controls>
+            <source src="RageYourDream.mp4" type="video/mp4">
+            <source src="RageYourDream.ogg" type="video/ogg">
+        </video><br />
+         <button onclick="playPauset()">播放/暂停</button>
+        <button onclick="makeBigt()">放大</button>
+        <button onclick="makeSmallt()">缩小</button>
+        <br />
+    </div>
+    <script>
+        var myviedot = document.getElementById("RYD")
+        function playPauset() {
+            if (myviedot.paused)
+                myviedot.play();
+            else myviedot.pause();
+        }
+        function makeBigt() {
+            myviedot.width = 560
+            myviedos.height = 480
+        }
+        function makeSmallt() {
+            myviedot.width = 480
+            myviedot.height = 320
+        }
+
+    </script>
+    <br /> 
+    <h3 id="tima"><b>color content</b><br />
+        <input type="color" name="favocolor" /></h3>
+</body>
+</html>
