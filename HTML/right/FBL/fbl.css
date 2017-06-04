@@ -1,0 +1,167 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 楷体;
+}
+#whole{
+	margin:25px auto;
+	width:971px;
+	height:600px;
+	border-radius: 10px;
+	background-color: #0f0;
+}
+#left{
+	width:320px;
+	height:560px;
+	background-image: url('fbl.JPG');
+	background-repeat: no-repeat;
+	background-position: 50% 15px;
+	border-top-left-radius: 10px;
+	background-color: rgba(37,70,101,1);
+	float:left;
+}
+img{
+	width:30px;
+	height: 30px;
+	border-radius: 30px;
+	background-color: #fff;
+	float:left;
+}
+#sex{
+	width: 200px;
+	height:30px;
+	line-height: 30px;
+	position: relative;
+	top:330px;
+	left:50px;
+}
+#sex1{
+	font-weight: bold;
+	margin-left: 100px;
+	font-size: 20px;
+	line-height: 30px；
+}
+#adress{
+	width: 240px;
+	height:30px;
+	line-height: 30px;
+	position: relative;
+	top:350px;
+	left:50px;
+}
+#ad1{
+	font-weight: bold;
+	margin-left: 45px;
+	font-size: 20px;
+	line-height: 30px；
+}
+#telephone{
+	width: 240px;
+	height:30px;
+	line-height: 30px;
+	position: relative;
+	top:370px;
+	left:50px;
+}
+#tp2{
+	margin-left: 45px;
+	font-size: 24px;
+	line-height: 30px；
+}
+#E-mail{
+	width: 200px;
+	height:30px;
+	line-height: 30px;
+	position: relative;
+	top:400px;
+	left:50px;
+}
+#E-mailn{
+	margin-left: 45px;
+	font-size: 24px;
+	line-height: 30px；
+}
+#right{
+	width:651px;
+	height:560px;
+	border-top-right-radius: 10px;
+	background-color: #eee;
+	float:right;
+}
+#name{
+	margin:20px 20%;
+	font-weight: bold;
+	font-size: 35px;
+}
+#user{
+	text-shadow: 4px 4px 4px #4aed14;
+}
+#purpose{
+	text-shadow: 1px 1px 1px #555;
+}
+
+#nav{
+	list-style-type:none; 
+	font-size:25px;
+	line-height: 25px;
+	text-decoration: none;
+	/*border:#000 solid 3px;*/
+	padding:0px;	
+}
+li{
+	width: 120px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+	border-top: #c9cbce solid 2px;
+	border-left: #c9cbce solid 2px;
+	border-bottom: #c9cbce solid 2px;
+	float:left;
+	cursor: pointer;
+}
+li:first-child{
+	margin-left: 20px;
+}
+li:last-child{
+	border-right: #c9cbce solid 2px;
+}
+#content{
+	margin:0px;
+	padding:5px;
+	width:600px;
+	height:364px;
+	position: relative;
+	text-align: left;
+	text-shadow: 0.5px 0.5px 0.5px #000;
+	font-family: 楷体;
+	font-size: 22px;
+	line-height: 32px;
+	top:56px;
+	right:-10px;
+	background-color:rgba(0,0,0,0.6);
+	border: #fff groove 5px;
+}
+#footer{
+	margin-left: 32px;
+	width:971px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 40px;
+	text-shadow: 2px 2px 2px #eee; 
+}
+a{
+	margin-left: 90px;
+	text-decoration: none;
+}
+#clock{
+	text-align-last:center;
+	width:100px;
+	height:35px;
+	line-height:35px;
+	border-radius:35px;
+	background-color:green;
+	position:fixed;
+	top:50%;
+	right:10px;
+}
