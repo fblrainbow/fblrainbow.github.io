@@ -85,7 +85,7 @@ img{
 	width:651px;
 	height:560px;
 	border-top-right-radius: 10px;
-	background-color: #eee;
+	background-color: #d0e4fe;
 	float:right;
 }
 #name{
@@ -162,6 +162,6 @@ a{
 	border-radius:35px;
 	background-color:green;
 	position:fixed;
-	top:50%;
+	top:5%;
 	right:10px;
 }
