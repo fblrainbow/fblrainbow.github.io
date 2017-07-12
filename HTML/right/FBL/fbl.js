@@ -68,7 +68,7 @@ fameobj.onmouseout=function(){
 }
 fameobj.onclick=function(){
 	 contentobj.style.font='100px';
-	contentobj.innerHTML='2013.3：2012-2013学年校级丙等奖学金</br>2015.3：2014-2015学年校级丙等奖学金</br>2016.3：2015届全国大学生数学竞赛（非数学类）三等奖</br>2016.5：2012届机电学院优秀毕业生'; }
+	contentobj.innerHTML='2016.5：2016届机电学院优秀毕业生;</br> 2013.3：2012-2013学年校级丙等奖学金</br>2015.3：2014-2015学年校级丙等奖学金</br>2016.3：2015届全国大学生数学竞赛（非数学类）三等奖</br'>}
 evaluateobj=document.getElementById('evaluate');
 evaluateobj.onmouseover=function(){
 	this.style.color='#00f';
@@ -77,5 +77,5 @@ evaluateobj.onmouseout=function(){
 	this.style.color='#000';
 }
 evaluateobj.onclick=function(){
-	contentobj.innerHTML='&nbsp;&nbsp;&nbsp;本人性格随和乐观，阳光开朗，工作认真负责，善于在实践中积累经验，不断的完善自我。在学习生活中比较喜欢独立思考问题并解决问题，动手操作能力逻辑思维比较强，擅于根据物理现象分析其原理然后去验证，对计算机具有浓厚的兴趣，喜欢把自己的思想通过编程表现出来。在工作中具有良好的组织协调能力和沟通协作能力，同时参加丰富的在外兼职经历使自己拥有较强的亲和力与责任心。';
+	contentobj.innerHTML='&nbsp;&nbsp;&nbsp;1、热爱编程。熟练使用HTML+CSS+JavaScript设计精美实用的网页，对intel的DPDK深有研究，熟练运用linux命令+vim+gcc+qt编程，精通C语言，熟悉C++、Python、shell等语言。</BR>	&nbsp;&nbsp;&nbsp;2、喜欢钻研技术。对自己以后职业发展有帮助的技术努力去深入研究，在Github、CSDN等开源社区与其他人一起探讨技术问题。</BR>	&nbsp;&nbsp;&nbsp;3、热爱软件开发。看到别人使用我参与开发的软件减少工作量，我非常有自豪感，我期待自己3年后能成为公司独当一面的后端工程师。';
 }
