@@ -68,7 +68,7 @@ fameobj.onmouseout=function(){
 }
 fameobj.onclick=function(){
 	 contentobj.style.font='100px';
-	contentobj.innerHTML='2016.5：2016届机电学院优秀毕业生;</br> 2013.3：2012-2013学年校级丙等奖学金</br>2015.3：2014-2015学年校级丙等奖学金</br>2016.3：2015届全国大学生数学竞赛（非数学类）三等奖</br>'}
+	contentobj.innerHTML='2016.5：2016届机电学院优秀毕业生</br> 2013.3：2012-2013学年校级丙等奖学金</br>2015.3：2014-2015学年校级丙等奖学金</br>2016.3：2015届全国大学生数学竞赛（非数学类）三等奖</br>';}
 evaluateobj=document.getElementById('evaluate');
 evaluateobj.onmouseover=function(){
 	this.style.color='#00f';
