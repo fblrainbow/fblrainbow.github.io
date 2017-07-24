@@ -1,9 +1,9 @@
 clockobj=document.getElementById('clock');
 setInterval(function(){
 	time=new Date();
-	// year=time.getFullYear();
-	// month=time.getMonth()+1;
-	// date=time.getDate();
+	year=time.getFullYear();
+	month=time.getMonth()+1;
+ 	date=time.getDate();
 	hours=time.getHours();
 	minutes=time.getMinutes();
 	seconds=time.getSeconds();
@@ -24,7 +24,7 @@ setInterval(function(){
 	}else if(seconds>0&&seconds<10){
 		seconds='0'+seconds;
 	}
-	clock.innerHTML=hours+':'+minutes+':'+seconds;
+	clock.innerHTML=year+'/'+month+'/'+date+'/  '+hours+':'+minutes+':'+seconds;
 },1000);
 contentobj=document.getElementById('content');
 eduobj=document.getElementById('edu');
@@ -57,7 +57,7 @@ workexpobj.onmouseout=function(){
 	this.style.color='#000';
 }
 workexpobj.onclick=function(){
-contentobj.innerHTML='2016年3月1日-2016年5月1日：</br>单位：湖北众达智能停车设备有限公司采购部  </br>职位：采购助理';
+contentobj.innerHTML='2017年7月17日-至今：</br>单位：深圳市软通动力技术有限公司</br>职位：软件开发工程师</br>2016年10月26日-2017年6月15日：</br>单位：天津市锦标科技有限公司</br>职位：linux C软件开发工程师</br>2016年3月1日-2016年5月1日：</br>单位：湖北众达智能停车设备有限公司采购部  </br>职位：采购助理';
 }
 fameobj=document.getElementById('fame');
 fameobj.onmouseover=function(){
