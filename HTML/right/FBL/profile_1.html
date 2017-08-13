@@ -29,24 +29,52 @@ body{
 #user{
 	align:20%;
 }
-#user_name{
+#user_name,#user_password{
+	background-color: rgba(255,255,255,0.8);
+	padding-left: 20px;
 	margin-top: 20px;
-	font-size:28px;
-
+	font-size:25px;
 }
-
-
+button{
+	margin-left:180px;
+}
+span{
+	text-align: center;
+	color:rgba(255,255,255,0.5);
+	padding-top: 40px;
+	padding-left:60px;
+	font-size:28px;
+	line-height: 40px;
+}
 </style>
 </head>
 <body><!-- 主体 -->
 <div id = "whole">
 <div id = "hello"><b>Login in</b></div>
-<div id = "user"><input type = "text" id = "user_name"></div>
-
-
-
-
+<p><span>账户:</span><input type = "text" id = "user_name"></p>
+<p><span>密码:</span><input type = "password" id = "user_password"></p>
+<p><button id = "login">登录</button><button id = "cancel">取消</button></p>
 </div>
 </body>
-<script></script>
+<script>
+var user_name_obj = document.getElementById("user_name");
+var user_password_obj = document.getElementById("usr_password");
+var login_obj = document.getElementById("login");
+var cancel_obj = document.getElementById("cancel");
+
+
+login_obj.onclick = function(){
+	var account = user_name.value;
+	var password = user_password.value;
+	if ((account == "fanbinglin") && (password =="846058904")) 
+	{
+		self.location = "profile.html";
+	}
+		
+	else {
+		alert("Account and password is error!");
+		self.location = "profile_1.html";
+	}
+}
+</script>
 </html>
