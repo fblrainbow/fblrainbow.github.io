@@ -22,11 +22,19 @@
     	position: relative;
     	align-top:50px;
     }  
+    #select_game_ok{
+    	font-weight: bold;
+    	text-align:center;
+    	text-shadow: 2px 2px 2px #f0f;
+    	border-radius: 5px;
+    	background-color: rgba(0,244,122,0.4);
+    }
+	
     </style>
 </head>
 <body>
 <div class = "top">游戏娱乐</div>
-<center><input list = "game" id = "input_game">
+<center><button id = "static">游戏</button>  <input list = "game" id = "input_game"> <button id = "select_game_ok">确定</button>
 <datalist id = "game">
 <option>俄罗斯方块</option>
 <option>超级玛丽</option>
@@ -34,6 +42,14 @@
 </datalist>
 </center>
 </body>
-<javascript>
-</javascript>
+<script language = "javascript">
+var game_name = document.getElementById("input_game");
+var input_game_obj = document.getElementById("select_game_ok");
+
+input_game_obj.onclick = function(){  
+	get_game_name = game_name.value;
+	var flash_html = "entertainment/"+get_game_name +"/index.html";
+	window.location.href=flash_html;
+}
+</script>
 </html>
