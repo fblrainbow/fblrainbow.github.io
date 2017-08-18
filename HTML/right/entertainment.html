@@ -39,6 +39,7 @@
 <option>俄罗斯方块</option>
 <option>超级玛丽</option>
 <option>推箱子</option>
+<option>超级玛丽2</option>
 </datalist>
 </center>
 </body>
@@ -48,8 +49,12 @@ var input_game_obj = document.getElementById("select_game_ok");
 
 input_game_obj.onclick = function(){  
 	get_game_name = game_name.value;
+    if(get_game_name == "")
+        alert("Please select game!");
+    else {
 	var flash_html = "entertainment/"+get_game_name +"/index.html";
 	window.location.href=flash_html;
+}
 }
 </script>
 </html>
