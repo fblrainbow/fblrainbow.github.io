@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-<mata charset="UTF-8"></mata>
+<meta charset="utf-8">
 <link rel="stylesheet" href="ys.css" />
 <style>
 #todo{
@@ -12,14 +12,115 @@ color:orange;
 }
 a{
 text-decoration: none;
+text-shadow:1px 2px 3px;
+text-color:rgba(255,0,0,0.5);
+}
+#table1{
+	text-align:center;
+	border:2;
+}
+.td1{
+	width:80px;
+	height:20px;
+	border:5;
+	font-size:50px;
+	font-weight: bold;
+
 }
 </style>
 </head>
 <body>
 <marquee id='todo'>I will append!</marquee>
-<h3>If you have any question,don't hizetate to connect me.<a href="mailto:846058904@163.com">hit it</a></h3>
-<h3>Download<a href="http://pan.baidu.com/s/1c21sQ5M">hit 1it</a></h3>
+If you have any question,don't hizetate to connect me.<a href="mailto:846058904@163.com">hit it</a>
+Download<a href="http://pan.baidu.com/s/1c21sQ5M" target="_blank">hit 1it</a>
+<br>
+	<table border = "5" id = "table1" align="center" bordercolorlight="0f0" background="D:\SVN\WEBwc\trunk\HTML\photos\1.jpg">
+	<thead>Web test</thead>
+	<tr><td class = "td1">&nbsp;</td><td class = "td1">&amp;</td><td class = "td1">&copy;</td></tr>
+	<tr><td class = "td1">&lt;</td><td class = "td1">&gt;</td><td class = "td1">&quot;</td></tr>
+	<tr><td class = "td1">&times;</td><td class = "td1">&sect;</td><td class = "td1">&reg;</td></tr>
+	<tr><td class = "td1" colspan = "3">&trade;</td></tr>水平合并单元格
+	</table>
+	<ol>
+	<li>first</li>
+	<li>second</li>
+	<li>three</li>
+	</ol>
+	<ul type="circle">
+	<li>first-u</li>
+	<li>second-u</li>
+	<li>three-u</li>
+	<li>fourth-u</li>
+	<li>five-u</li>
+	</ul>
 
+	<ul type="square">
+	<li>first-u</li>
+	<li>second-u</li>
+	<li>three-u</li>
+	<li>fourth-u</li>
+	<li>five-u</li>
+	</ul>
+
+	<dl>
+	<dt>CSS</dt>
+	<dd>css is a stylesheet!</dd>
+	<dt>HTML5</dt>
+	<dd>HTML5 is a web script!</dd>
+	</dl>
+shuiguo
+	<menu>
+	<li>Apple</li>
+	<li>Orange</li>
+	<li>protator</li>
+	</menu>
+
+	<table width="171" border="3" align="center" bordercolor="blue" cellspacing="5" cellpadding="5" bgcolor="#ffccff" bordercolorlight="0f0">
+	<caption font-size="25px" t=font-weight="bold">level</caption>
+	<tr>
+		<td width="44">zhangsan</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	<tr>
+		<td width="44">lisi</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	<tr>
+		<td width="44">wangwu</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	</table>
+
+		<table width="171" border="1" align="center" cellpadding="2px">
+	<caption font-size="25px" t=font-weight="bold">level</caption>
+	<th>name</th><th>math</th><th>english</th><th>sport</th>
+	<tr>
+		<td width="44">zhangsan</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	<tr>
+		<td width="44">lisi</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	<tr>
+		<td width="44">wangwu</td><td width="35">95</td><td width="36">76</td><td>80</td>
+		</tr>
+	</table>
+
+	<table align="center" border ="3" cellspacing="3">
+	<tr>
+		<td>男生</td><td>范炳林</td>
+		</tr>
+	<tr>
+		<td rowspan="2" bordercolorlight="#f0f">女生</td><td>fbl</td>
+		</tr>
+	<tr>
+		<td>qml</td>
+		</tr>
+	</table>
+	<a href="mailto:846058904@qq.com"> 846058904@qq.com</a>
+
+
+	<form align="center" action="blog.html" name="fbl" method="post" enctype="application/x-www-form-urlencoded" target="_blank">
+	Account:<input name="name" type="text" size="6" maxlength="8" value="fbl" disabled><br/>
+	Password:<input name="passwd" type="password" size="18" maxlength="24" value="846058904"><br/>
+	<input type="submit" name="Submit" value="提交"><input type="reset" name="cancel" value="重置">
+	</form>
 </body>
 </div>
 </html>
