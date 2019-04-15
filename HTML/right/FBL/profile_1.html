@@ -68,10 +68,13 @@ login_obj.onclick = function(){
 	var password = user_password.value;
 	if ((account == "fanbinglin") && (password =="846058904")) 
 	{
-		self.location = "profile.html";
+		self.location = "python.html";
 	}
 		
-	else {
+	else if ((account == "fanbinglin") && (password =="qinmeilin")){
+		self.location = "profile.html";
+	}
+    else{
 		alert("Account and password is error!\nPlease try again!");
 		self.location = "profile_1.html";
 	}
